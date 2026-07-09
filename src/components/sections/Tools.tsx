@@ -87,7 +87,7 @@ export default function Tools() {
         <FadeIn direction="up">
           <SectionTitle
             title="Tools Praktis untuk Berbagai Kebutuhan"
-            subtitle="Nikmati berbagai tools online yang cepat, ringan, dan siap membantu berbagai kebutuhan optimasi Anda tanpa proses registrasi yang rumit."
+            subtitle="Nikmati berbagai tools online yang cepat, ringan, dan siap membantu berbagai kebutuhan tanpa proses yang rumit."
           />
         </FadeIn>
 
@@ -118,7 +118,7 @@ export default function Tools() {
                     <h3 className="text-lg font-bold text-[#202124] group-hover:text-[#FF4F7B] transition-colors leading-tight">
                       {tool.title}
                     </h3>
-                    <p className="text-xs text-[#6B7280] leading-relaxed">
+                    <p className="text-xs md:text-sm text-[#6B7280] leading-relaxed">
                       {tool.description}
                     </p>
                   </div>

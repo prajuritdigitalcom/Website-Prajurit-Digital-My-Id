@@ -15,11 +15,11 @@ export default function SectionTitle({
 
   return (
     <div className={`flex flex-col gap-3.5 max-w-4xl mb-12 ${alignClass} font-sans`}>
-      <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#202124] leading-tight whitespace-nowrap md:whitespace-normal">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#202124] leading-tight">
         {title}
       </h2>
       {subtitle && (
-        <p className="text-sm md:text-base text-[#6B7280] leading-relaxed max-w-2xl mx-auto">
+        <p className="text-sm md:text-lg text-[#6B7280] leading-relaxed max-w-3xl mx-auto">
           {subtitle}
         </p>
       )}

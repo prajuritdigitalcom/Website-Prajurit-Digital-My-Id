@@ -44,7 +44,7 @@ export default function Hero() {
             </FadeIn>
 
             <FadeIn direction="up" delay={0.3}>
-              <p className="text-sm md:text-base text-[#6B7280] leading-relaxed max-w-[450px]">
+              <p className="text-sm md:text-lg text-[#6B7280] leading-relaxed max-w-[500px]">
                 Hemat waktu dan tingkatkan produktivitas pemasaran digital Anda dengan kumpulan tools online yang praktis, cepat, ringan, serta mudah digunakan.
               </p>
             </FadeIn>
