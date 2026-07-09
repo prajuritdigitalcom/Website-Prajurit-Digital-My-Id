@@ -22,7 +22,7 @@ export default function Navbar() {
         </div>
 
         <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#FFF6F8] rounded-full border border-[#FF4F7B]/10 text-[10px] font-bold text-[#FF4F7B] tracking-wider uppercase">
-          <span>100% Gratis Tanpa Batas</span>
+          <span>100% Gratis!</span>
         </div>
       </div>
     </nav>

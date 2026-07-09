@@ -8,7 +8,8 @@ export const TOOLS_DATA: Tool[] = [
     icon: "Image",
     href: "#webp-converter",
     badge: "Populer",
-    category: "media"
+    category: "media",
+    externalUrl: "https://convertgambarwebp.prajuritdigital.my.id/"
   },
   {
     id: "spintax-generator",
@@ -17,7 +18,8 @@ export const TOOLS_DATA: Tool[] = [
     icon: "Shuffle",
     href: "#spintax-generator",
     badge: "Gratis",
-    category: "marketing"
+    category: "marketing",
+    externalUrl: "https://spintaxgenerator.prajuritdigital.my.id/"
   },
   {
     id: "keyword-merger",
@@ -25,7 +27,8 @@ export const TOOLS_DATA: Tool[] = [
     description: "Gabungkan berbagai kata kunci menjadi ribuan kombinasi baru dengan cepat untuk kebutuhan SEO dan riset.",
     icon: "Combine",
     href: "#keyword-merger",
-    category: "seo"
+    category: "seo",
+    externalUrl: "https://penggabungkatakunci.prajuritdigital.my.id/"
   },
   {
     id: "keyword-suggest",
@@ -34,7 +37,8 @@ export const TOOLS_DATA: Tool[] = [
     icon: "TrendingUp",
     href: "#keyword-suggest",
     badge: "Terbaru",
-    category: "seo"
+    category: "seo",
+    externalUrl: "https://risetkeywordgooglesuggest.prajuritdigital.my.id/"
   },
   {
     id: "unique-image",
@@ -43,7 +47,8 @@ export const TOOLS_DATA: Tool[] = [
     icon: "Palette",
     href: "#unique-image",
     badge: "AI + SEO",
-    category: "media"
+    category: "media",
+    externalUrl: "https://generatorgambarunik.prajuritdigital.my.id/"
   },
   {
     id: "product-rewriter",
@@ -52,6 +57,7 @@ export const TOOLS_DATA: Tool[] = [
     icon: "PenTool",
     href: "#product-rewriter",
     badge: "AI Power",
-    category: "writing"
+    category: "writing",
+    externalUrl: "https://rewriterdeskripsiproduk.prajuritdigital.my.id/"
   }
 ];

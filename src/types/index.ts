@@ -6,6 +6,7 @@ export interface Tool {
   href: string;
   badge?: string;
   category: "marketing" | "seo" | "media" | "writing";
+  externalUrl?: string;
 }
 
 export interface MenuItem {

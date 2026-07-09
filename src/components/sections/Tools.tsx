@@ -124,10 +124,18 @@ export default function Tools() {
                   </div>
                 </div>
 
-                <div className="pt-6 flex items-center gap-1.5 text-xs font-bold text-[#FF4F7B] group-hover:text-[#F33967]">
-                  <span>{activeToolId === tool.id ? "Sedang Terbuka" : "Buka Tool"}</span>
-                  <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
-                </div>
+                <a 
+                  href={tool.externalUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                  className="pt-6 flex items-center gap-1.5 text-xs font-bold text-[#FF4F7B] hover:text-[#F33967] w-fit cursor-pointer group/btn"
+                >
+                  <span>Buka Tool</span>
+                  <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover/btn:translate-x-1 group-hover:translate-x-1" />
+                </a>
               </Card>
             </FadeIn>
           ))}
