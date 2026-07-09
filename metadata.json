@@ -1,0 +1,8 @@
+{
+  "name": "Prajurit Digital Tools v2",
+  "description": "Halaman tools digital premium oleh Prajurit Digital untuk meningkatkan produktivitas, riset keyword, spinning teks, optimasi gambar, dan rewriting deskripsi produk menggunakan AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
