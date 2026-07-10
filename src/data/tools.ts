@@ -69,5 +69,15 @@ export const TOOLS_DATA: Tool[] = [
     badge: "Terbaru",
     category: "seo",
     externalUrl: "https://indexjump.prajuritdigital.my.id/"
+  },
+  {
+    id: "data-wilayah-indonesia",
+    title: "Penjelajah Data Wilayah Indonesia",
+    description: "Cari data provinsi, kabupaten, kecamatan, dan desa dengan mudah.",
+    icon: "Map",
+    href: "#data-wilayah-indonesia",
+    badge: "Terbaru",
+    category: "marketing",
+    externalUrl: "https://datawilayahindonesia.prajuritdigital.my.id/"
   }
 ];

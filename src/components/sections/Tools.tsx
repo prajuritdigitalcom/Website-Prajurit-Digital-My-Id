@@ -16,6 +16,7 @@ import {
   Palette, 
   PenTool, 
   Globe,
+  Map,
   ArrowRight,
   Sparkles,
   Play
@@ -50,6 +51,8 @@ export default function Tools() {
         return <PenTool className="w-6 h-6" />;
       case "Globe":
         return <Globe className="w-6 h-6" />;
+      case "Map":
+        return <Map className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }
