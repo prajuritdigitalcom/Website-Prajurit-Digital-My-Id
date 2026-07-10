@@ -15,6 +15,7 @@ import {
   TrendingUp, 
   Palette, 
   PenTool, 
+  Globe,
   ArrowRight,
   Sparkles,
   Play
@@ -47,12 +48,32 @@ export default function Tools() {
         return <Palette className="w-6 h-6" />;
       case "PenTool":
         return <PenTool className="w-6 h-6" />;
+      case "Globe":
+        return <Globe className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }
   };
 
   const selectTool = (id: string) => {
+    // Check if tool has a local workspace
+    const localWorkspaces = [
+      "webp-converter",
+      "spintax-generator",
+      "keyword-merger",
+      "keyword-suggest",
+      "unique-image",
+      "product-rewriter"
+    ];
+    
+    if (!localWorkspaces.includes(id)) {
+      const tool = TOOLS_DATA.find(t => t.id === id);
+      if (tool?.externalUrl) {
+        window.open(tool.externalUrl, "_blank", "noopener,noreferrer");
+      }
+      return;
+    }
+
     setActiveToolId(id);
     // Smooth scroll to workspace
     setTimeout(() => {

@@ -59,5 +59,15 @@ export const TOOLS_DATA: Tool[] = [
     badge: "AI Power",
     category: "writing",
     externalUrl: "https://rewriterdeskripsiproduk.prajuritdigital.my.id/"
+  },
+  {
+    id: "indexjump-manager-pro",
+    title: "IndexJump Manager Pro",
+    description: "Kelola banyak akun IndexJump untuk indexing ratusan hingga ribuan URL tanpa login ulang.",
+    icon: "Globe",
+    href: "#indexjump-manager",
+    badge: "Terbaru",
+    category: "seo",
+    externalUrl: "https://indexjump.prajuritdigital.my.id/"
   }
 ];
