@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import Container from "../ui/Container";
 import SectionTitle from "../ui/SectionTitle";
 import Card from "../ui/Card";
@@ -17,23 +17,13 @@ import {
   PenTool, 
   Globe,
   Map,
+  Link,
   ArrowRight,
   Sparkles,
   Play
 } from "lucide-react";
 
-// Import Tool Components
-import WebpConverter from "../tools/WebpConverter";
-import SpintaxGenerator from "../tools/SpintaxGenerator";
-import KeywordMerger from "../tools/KeywordMerger";
-import KeywordSuggest from "../tools/KeywordSuggest";
-import UniqueImageGen from "../tools/UniqueImageGen";
-import ProductRewriter from "../tools/ProductRewriter";
-
 export default function Tools() {
-  const [activeToolId, setActiveToolId] = useState<string | null>(null);
-  const workspaceRef = useRef<HTMLDivElement>(null);
-
   // Map icon name to Lucide Icon component
   const getIcon = (name: string) => {
     switch (name) {
@@ -53,54 +43,16 @@ export default function Tools() {
         return <Globe className="w-6 h-6" />;
       case "Map":
         return <Map className="w-6 h-6" />;
+      case "Link":
+        return <Link className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }
   };
 
-  const selectTool = (id: string) => {
-    // Check if tool has a local workspace
-    const localWorkspaces = [
-      "webp-converter",
-      "spintax-generator",
-      "keyword-merger",
-      "keyword-suggest",
-      "unique-image",
-      "product-rewriter"
-    ];
-    
-    if (!localWorkspaces.includes(id)) {
-      const tool = TOOLS_DATA.find(t => t.id === id);
-      if (tool?.externalUrl) {
-        window.open(tool.externalUrl, "_blank", "noopener,noreferrer");
-      }
-      return;
-    }
-
-    setActiveToolId(id);
-    // Smooth scroll to workspace
-    setTimeout(() => {
-      workspaceRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 150);
-  };
-
-  // Render the selected interactive tool workspace
-  const renderActiveToolWorkspace = () => {
-    switch (activeToolId) {
-      case "webp-converter":
-        return <WebpConverter />;
-      case "spintax-generator":
-        return <SpintaxGenerator />;
-      case "keyword-merger":
-        return <KeywordMerger />;
-      case "keyword-suggest":
-        return <KeywordSuggest />;
-      case "unique-image":
-        return <UniqueImageGen />;
-      case "product-rewriter":
-        return <ProductRewriter />;
-      default:
-        return null;
+  const selectTool = (externalUrl?: string) => {
+    if (externalUrl) {
+      window.open(externalUrl, "_blank", "noopener,noreferrer");
     }
   };
 
@@ -120,20 +72,12 @@ export default function Tools() {
           {TOOLS_DATA.map((tool, index) => (
             <FadeIn key={tool.id} direction="up" delay={0.05 * index}>
               <Card 
-                onClick={() => selectTool(tool.id)}
-                className={`flex flex-col justify-between h-full group cursor-pointer border-2 transition-all duration-300 ${
-                  activeToolId === tool.id 
-                    ? "border-[#FF4F7B] shadow-md bg-[#FFF6F8]/30 -translate-y-1" 
-                    : "border-[#ECECEC] hover:border-[#FF4F7B]"
-                }`}
+                onClick={() => selectTool(tool.externalUrl)}
+                className="flex flex-col justify-between h-full group cursor-pointer border-2 transition-all duration-300 border-[#ECECEC] hover:border-[#FF4F7B]"
               >
                 <div className="space-y-4">
                   <div className="flex justify-between items-start">
-                    <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all ${
-                      activeToolId === tool.id 
-                        ? "bg-[#FF4F7B] text-white" 
-                        : "bg-[#FFF6F8] text-[#FF4F7B] group-hover:bg-[#FF4F7B] group-hover:text-white"
-                    }`}>
+                    <div className="w-12 h-12 rounded-2xl flex items-center justify-center transition-all bg-[#FFF6F8] text-[#FF4F7B] group-hover:bg-[#FF4F7B] group-hover:text-white">
                       {getIcon(tool.icon)}
                     </div>
                   </div>
@@ -164,34 +108,6 @@ export default function Tools() {
             </FadeIn>
           ))}
         </div>
-
-        {/* Workspace Focus Anchor */}
-        <div ref={workspaceRef} className="scroll-mt-24 pt-2">
-          {activeToolId && (
-            <FadeIn direction="up" duration={0.6}>
-              <div className="border-2 border-[#FF4F7B]/10 rounded-[32px] p-1 bg-[#FFF6F8]/20 shadow-sm mb-12">
-                <div className="bg-gray-100/50 rounded-[28px] px-6 py-3 border-b border-gray-200/50 flex justify-between items-center flex-wrap gap-4">
-                  <div className="flex items-center gap-2">
-                    <div className="w-2.5 h-2.5 rounded-full bg-[#FF4F7B]" />
-                    <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#FF4F7B]">
-                      Workspace Aktif
-                    </span>
-                  </div>
-                  <button
-                    onClick={() => setActiveToolId(null)}
-                    className="text-xs text-[#6B7280] hover:text-[#FF4F7B] font-bold transition-colors cursor-pointer"
-                  >
-                    Tutup Workspace [x]
-                  </button>
-                </div>
-                <div className="p-4 md:p-6 bg-white rounded-b-[28px] rounded-t-[10px]">
-                  {renderActiveToolWorkspace()}
-                </div>
-              </div>
-            </FadeIn>
-          )}
-        </div>
-
       </Container>
     </section>
   );

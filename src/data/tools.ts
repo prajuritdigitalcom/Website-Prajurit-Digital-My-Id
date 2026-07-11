@@ -79,5 +79,15 @@ export const TOOLS_DATA: Tool[] = [
     badge: "Terbaru",
     category: "marketing",
     externalUrl: "https://datawilayahindonesia.prajuritdigital.my.id/"
+  },
+  {
+    id: "url-extractor",
+    title: "Website URL Extractor",
+    description: "Ekstrak semua URL dari sebuah website dengan cepat dan mudah dalam satu proses.",
+    icon: "Link",
+    href: "#url-extractor",
+    badge: "Baru",
+    category: "marketing",
+    externalUrl: "https://urlextractor.prajuritdigital.my.id/"
   }
 ];
