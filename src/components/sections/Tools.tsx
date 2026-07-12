@@ -18,6 +18,7 @@ import {
   Globe,
   Map,
   Link,
+  Keyboard,
   ArrowRight,
   Sparkles,
   Play
@@ -45,6 +46,8 @@ export default function Tools() {
         return <Map className="w-6 h-6" />;
       case "Link":
         return <Link className="w-6 h-6" />;
+      case "Keyboard":
+        return <Keyboard className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }

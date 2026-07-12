@@ -89,5 +89,15 @@ export const TOOLS_DATA: Tool[] = [
     badge: "Baru",
     category: "marketing",
     externalUrl: "https://urlextractor.prajuritdigital.my.id/"
+  },
+  {
+    id: "typehero-indonesia",
+    title: "Type Hero Indonesia",
+    description: "Belajar mengetik 10 jari dengan latihan yang mudah, menyenangkan, dan interaktif.",
+    icon: "Keyboard",
+    href: "#typehero-indonesia",
+    badge: "Baru",
+    category: "writing",
+    externalUrl: "https://typehero.prajuritdigital.my.id/"
   }
 ];
