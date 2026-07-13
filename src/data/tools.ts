@@ -109,5 +109,15 @@ export const TOOLS_DATA: Tool[] = [
     badge: "Baru",
     category: "marketing",
     externalUrl: "https://disc.prajuritdigital.my.id/"
+  },
+  {
+    id: "mbti-indonesia",
+    title: "MBTI Indonesia",
+    description: "Jelajahi 16 tipe kepribadian MBTI melalui tes yang cepat, mudah, dan interaktif.",
+    icon: "Brain",
+    href: "#mbti-indonesia",
+    badge: "Baru",
+    category: "marketing",
+    externalUrl: "https://mbti.prajuritdigital.my.id/"
   }
 ];
