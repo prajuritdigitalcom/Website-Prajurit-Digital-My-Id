@@ -19,6 +19,7 @@ import {
   Map,
   Link,
   Keyboard,
+  Brain,
   ArrowRight,
   Sparkles,
   Play
@@ -48,6 +49,8 @@ export default function Tools() {
         return <Link className="w-6 h-6" />;
       case "Keyboard":
         return <Keyboard className="w-6 h-6" />;
+      case "Brain":
+        return <Brain className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }

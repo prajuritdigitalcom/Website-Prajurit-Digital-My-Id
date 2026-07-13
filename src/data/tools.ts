@@ -99,5 +99,15 @@ export const TOOLS_DATA: Tool[] = [
     badge: "Baru",
     category: "writing",
     externalUrl: "https://typehero.prajuritdigital.my.id/"
+  },
+  {
+    id: "disc-indonesia",
+    title: "DISC Indonesia",
+    description: "Ketahui tipe kepribadian, gaya komunikasi, dan cara Anda berinteraksi melalui tes DISC.",
+    icon: "Brain",
+    href: "#disc-indonesia",
+    badge: "Baru",
+    category: "marketing",
+    externalUrl: "https://disc.prajuritdigital.my.id/"
   }
 ];
