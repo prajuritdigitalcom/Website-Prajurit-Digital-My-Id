@@ -119,5 +119,15 @@ export const TOOLS_DATA: Tool[] = [
     badge: "Baru",
     category: "marketing",
     externalUrl: "https://mbti.prajuritdigital.my.id/"
+  },
+  {
+    id: "bulk-spintax-expander",
+    title: "Bulk Spintax Expander",
+    description: "Urai spintax menjadi ribuan variasi teks unik secara cepat, akurat, dan siap digunakan.",
+    icon: "Shuffle",
+    href: "#bulk-spintax-expander",
+    badge: "Baru",
+    category: "writing",
+    externalUrl: "https://bulkspintaxexpander.prajuritdigital.my.id/"
   }
 ];
