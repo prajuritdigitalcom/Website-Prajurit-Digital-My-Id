@@ -131,3 +131,16 @@ export const TOOLS_DATA: Tool[] = [
     externalUrl: "https://bulkspintaxexpander.prajuritdigital.my.id/"
   }
 ];
+
+export const MEMBER_TOOLS_DATA: Tool[] = [
+  {
+    id: "canvas-prd-ai",
+    title: "Canvas PRD AI",
+    description: "Ubah ide atau brief menjadi PRD website yang siap digunakan untuk proses development menggunakan AI.",
+    icon: "Sparkles",
+    href: "#canvas-prd-ai",
+    badge: "Ekslusif",
+    category: "writing",
+    externalUrl: "https://canvasprd.prajuritdigital.my.id/"
+  }
+];
