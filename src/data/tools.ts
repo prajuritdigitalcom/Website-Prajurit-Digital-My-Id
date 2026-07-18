@@ -142,5 +142,15 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
     badge: "Ekslusif",
     category: "writing",
     externalUrl: "https://canvasprd.prajuritdigital.my.id/"
+  },
+  {
+    id: "canvas-xml-blogger",
+    title: "Canvas XML Blogger",
+    description: "Konversi file HTML dari Google Canvas menjadi template XML Blogger dengan cepat dan mudah.",
+    icon: "FileCode",
+    href: "#canvas-xml-blogger",
+    badge: "Ekslusif",
+    category: "writing",
+    externalUrl: "https://canvasxml.prajuritdigital.my.id/"
   }
 ];

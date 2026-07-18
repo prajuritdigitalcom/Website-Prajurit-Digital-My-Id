@@ -22,7 +22,8 @@ import {
   Brain,
   ArrowRight,
   Sparkles,
-  Play
+  Play,
+  FileCode
 } from "lucide-react";
 
 export default function Tools() {
@@ -53,6 +54,8 @@ export default function Tools() {
         return <Brain className="w-6 h-6" />;
       case "Sparkles":
         return <Sparkles className="w-6 h-6" />;
+      case "FileCode":
+        return <FileCode className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }
