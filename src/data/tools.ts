@@ -152,5 +152,15 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
     badge: "Ekslusif",
     category: "writing",
     externalUrl: "https://canvasxml.prajuritdigital.my.id/"
+  },
+  {
+    id: "imgbb-upload-manager",
+    title: "ImgBB Upload Manager",
+    description: "Upload gambar ke ImgBB dan dapatkan Direct Image URL dengan cepat untuk mempermudah pembuatan website berbasis AI.",
+    icon: "Image",
+    href: "#imgbb-upload-manager",
+    badge: "Ekslusif",
+    category: "marketing",
+    externalUrl: "https://imgbb.prajuritdigital.my.id/"
   }
 ];
