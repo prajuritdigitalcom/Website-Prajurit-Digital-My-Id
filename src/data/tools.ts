@@ -156,7 +156,7 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
   {
     id: "imgbb-upload-manager",
     title: "ImgBB Upload Manager",
-    description: "Upload gambar ke ImgBB dan dapatkan Direct Image URL dengan cepat untuk mempermudah pembuatan website berbasis AI.",
+    description: "Upload gambar ke ImgBB dan dapatkan Direct Image URL dengan cepat untuk mempermudah pembuatan website AI.",
     icon: "Image",
     href: "#imgbb-upload-manager",
     badge: "Ekslusif",
