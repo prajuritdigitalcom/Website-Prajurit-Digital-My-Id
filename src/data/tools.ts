@@ -162,5 +162,15 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
     badge: "Ekslusif",
     category: "marketing",
     externalUrl: "https://imgbb.prajuritdigital.my.id/"
+  },
+  {
+    id: "ai-human-writer",
+    title: "AI Human Writer",
+    description: "Hasilkan artikel yang lebih alami, mudah dipahami, dan terasa ditulis oleh seorang penulis profesional.",
+    icon: "PenTool",
+    href: "#ai-human-writer",
+    badge: "Ekslusif",
+    category: "writing",
+    externalUrl: "https://aihumanwriter.prajuritdigital.my.id/"
   }
 ];
