@@ -129,6 +129,16 @@ export const TOOLS_DATA: Tool[] = [
     badge: "Baru",
     category: "writing",
     externalUrl: "https://bulkspintaxexpander.prajuritdigital.my.id/"
+  },
+  {
+    id: "apos",
+    title: "AI Prompt Operating System",
+    description: "Susun prompt yang jelas dan lengkap untuk mendapatkan hasil terbaik dari AI.",
+    icon: "Terminal",
+    href: "#apos",
+    badge: "Baru",
+    category: "writing",
+    externalUrl: "https://apos.prajuritdigital.my.id/"
   }
 ];
 

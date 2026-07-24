@@ -23,7 +23,8 @@ import {
   ArrowRight,
   Sparkles,
   Play,
-  FileCode
+  FileCode,
+  Terminal
 } from "lucide-react";
 
 export default function Tools() {
@@ -56,6 +57,8 @@ export default function Tools() {
         return <Sparkles className="w-6 h-6" />;
       case "FileCode":
         return <FileCode className="w-6 h-6" />;
+      case "Terminal":
+        return <Terminal className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }
