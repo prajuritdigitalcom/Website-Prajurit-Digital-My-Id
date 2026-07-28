@@ -126,6 +126,15 @@ export const TOOLS_DATA: Tool[] = [
     href: "#apos",
     category: "writing",
     externalUrl: "https://apos.prajuritdigital.my.id/"
+  },
+  {
+    id: "ai-human-article",
+    title: "AI Human Article",
+    description: "Hasilkan artikel yang terasa lebih alami dengan alur penulisan yang rapi dan mudah dipahami pembaca.",
+    icon: "PenTool",
+    href: "#ai-human-article",
+    category: "writing",
+    externalUrl: "https://aihumanarticle.prajuritdigital.my.id/"
   }
 ];
 
