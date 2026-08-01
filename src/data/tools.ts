@@ -135,6 +135,15 @@ export const TOOLS_DATA: Tool[] = [
     href: "#ai-human-article",
     category: "writing",
     externalUrl: "https://aihumanarticle.prajuritdigital.my.id/"
+  },
+  {
+    id: "indexing-google-api-pro",
+    title: "Indexing Google API Pro",
+    description: "Gunakan banyak JSON Keys untuk memperluas kuota indexing Google dalam satu tempat.",
+    icon: "Globe",
+    href: "#indexing-google-api-pro",
+    category: "seo",
+    externalUrl: "https://indexinggoogleapi.prajuritdigital.my.id/"
   }
 ];
 
