@@ -24,7 +24,8 @@ import {
   Sparkles,
   Play,
   FileCode,
-  Terminal
+  Terminal,
+  Gamepad2
 } from "lucide-react";
 
 export default function Tools() {
@@ -59,6 +60,8 @@ export default function Tools() {
         return <FileCode className="w-6 h-6" />;
       case "Terminal":
         return <Terminal className="w-6 h-6" />;
+      case "Gamepad2":
+        return <Gamepad2 className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }

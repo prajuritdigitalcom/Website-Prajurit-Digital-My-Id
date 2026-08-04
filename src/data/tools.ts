@@ -144,6 +144,15 @@ export const TOOLS_DATA: Tool[] = [
     href: "#indexing-google-api-pro",
     category: "seo",
     externalUrl: "https://indexinggoogleapi.prajuritdigital.my.id/"
+  },
+  {
+    id: "catur-hp-indonesia",
+    title: "Catur HP Indonesia",
+    description: "Duel catur dengan teman secara online kapan saja langsung dari HP.",
+    icon: "Gamepad2",
+    href: "#catur-hp-indonesia",
+    category: "marketing",
+    externalUrl: "https://catur.prajuritdigital.my.id/"
   }
 ];
 
