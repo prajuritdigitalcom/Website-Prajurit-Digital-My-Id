@@ -168,6 +168,16 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
     externalUrl: "https://canvasprd.prajuritdigital.my.id/"
   },
   {
+    id: "canvas-prd-ai-multi-page",
+    title: "Canvas PRD AI Multi Page",
+    description: "Buat PRD website multi-page dengan AI secara cepat, lengkap, dan siap digunakan untuk membangun website.",
+    icon: "Sparkles",
+    href: "#canvas-prd-ai-multi-page",
+    badge: "Ekslusif",
+    category: "writing",
+    externalUrl: "https://canvasmultipage.prajuritdigital.my.id/"
+  },
+  {
     id: "canvas-xml-blogger",
     title: "Canvas XML Blogger",
     description: "Konversi file HTML dari Google Canvas menjadi template XML Blogger dengan cepat dan mudah.",
