@@ -178,6 +178,16 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
     externalUrl: "https://canvasmultipage.prajuritdigital.my.id/"
   },
   {
+    id: "imgbb-upload-manager",
+    title: "ImgBB Upload Manager",
+    description: "Upload gambar ke ImgBB dan dapatkan Direct Image URL dengan cepat untuk mempermudah pembuatan website AI.",
+    icon: "Image",
+    href: "#imgbb-upload-manager",
+    badge: "Ekslusif",
+    category: "marketing",
+    externalUrl: "https://imgbb.prajuritdigital.my.id/"
+  },
+  {
     id: "canvas-xml-blogger",
     title: "Canvas XML Blogger",
     description: "Konversi file HTML dari Google Canvas menjadi template XML Blogger dengan cepat dan mudah.",
@@ -188,14 +198,14 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
     externalUrl: "https://canvasxml.prajuritdigital.my.id/"
   },
   {
-    id: "imgbb-upload-manager",
-    title: "ImgBB Upload Manager",
-    description: "Upload gambar ke ImgBB dan dapatkan Direct Image URL dengan cepat untuk mempermudah pembuatan website AI.",
-    icon: "Image",
-    href: "#imgbb-upload-manager",
+    id: "canvas-html-elementor",
+    title: "Canvas HTML Elementor",
+    description: "Konversi HTML dari Gemini Canvas menjadi HTML siap pakai untuk Elementor WordPress dengan cepat dan mudah.",
+    icon: "Layout",
+    href: "#canvas-html-elementor",
     badge: "Ekslusif",
-    category: "marketing",
-    externalUrl: "https://imgbb.prajuritdigital.my.id/"
+    category: "writing",
+    externalUrl: "https://canvashtml.prajuritdigital.my.id/"
   },
   {
     id: "ai-human-writer",
