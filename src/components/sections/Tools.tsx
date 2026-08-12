@@ -26,7 +26,8 @@ import {
   FileCode,
   Terminal,
   Gamepad2,
-  Layout
+  Layout,
+  Users
 } from "lucide-react";
 
 export default function Tools() {
@@ -65,6 +66,8 @@ export default function Tools() {
         return <Gamepad2 className="w-6 h-6" />;
       case "Layout":
         return <Layout className="w-6 h-6" />;
+      case "Users":
+        return <Users className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }

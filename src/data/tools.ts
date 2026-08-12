@@ -153,6 +153,15 @@ export const TOOLS_DATA: Tool[] = [
     href: "#catur-hp-indonesia",
     category: "marketing",
     externalUrl: "https://catur.prajuritdigital.my.id/"
+  },
+  {
+    id: "umkm-virtual-team",
+    title: "UMKM Virtual Team",
+    description: "Miliki tim AI virtual untuk membantu pekerjaan bisnis, dari mencari ide hingga menyusun strategi dan konten.",
+    icon: "Users",
+    href: "#umkm-virtual-team",
+    category: "marketing",
+    externalUrl: "https://umkm.prajuritdigital.my.id/"
   }
 ];
 
