@@ -225,5 +225,15 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
     badge: "Ekslusif",
     category: "writing",
     externalUrl: "https://aihumanwriter.prajuritdigital.my.id/"
+  },
+  {
+    id: "seo-silo-builder",
+    title: "SEO SILO Builder",
+    description: "Bangun struktur konten SEO yang rapi, lengkap, dan saling terhubung dari satu topik.",
+    icon: "Network",
+    href: "#seo-silo-builder",
+    badge: "Ekslusif",
+    category: "seo",
+    externalUrl: "https://silo.prajuritdigital.my.id/"
   }
 ];
