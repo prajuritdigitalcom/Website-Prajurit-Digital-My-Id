@@ -56,15 +56,6 @@ export const TOOLS_DATA: Tool[] = [
     externalUrl: "https://rewriterdeskripsiproduk.prajuritdigital.my.id/"
   },
   {
-    id: "indexjump-manager-pro",
-    title: "IndexJump Manager Pro",
-    description: "Kelola banyak akun IndexJump untuk indexing ratusan hingga ribuan URL tanpa login ulang.",
-    icon: "Globe",
-    href: "#indexjump-manager",
-    category: "seo",
-    externalUrl: "https://indexjump.prajuritdigital.my.id/"
-  },
-  {
     id: "data-wilayah-indonesia",
     title: "Penjelajah Data Wilayah Indonesia",
     description: "Cari data provinsi, kabupaten, kecamatan, dan desa dengan mudah.",
@@ -135,15 +126,6 @@ export const TOOLS_DATA: Tool[] = [
     href: "#ai-human-article",
     category: "writing",
     externalUrl: "https://aihumanarticle.prajuritdigital.my.id/"
-  },
-  {
-    id: "indexing-google-api-pro",
-    title: "Indexing Google API Pro",
-    description: "Gunakan banyak JSON Keys untuk memperluas kuota indexing Google dalam satu tempat.",
-    icon: "Globe",
-    href: "#indexing-google-api-pro",
-    category: "seo",
-    externalUrl: "https://indexinggoogleapi.prajuritdigital.my.id/"
   },
   {
     id: "catur-hp-indonesia",
@@ -235,5 +217,25 @@ export const MEMBER_TOOLS_DATA: Tool[] = [
     badge: "Ekslusif",
     category: "seo",
     externalUrl: "https://silo.prajuritdigital.my.id/"
+  },
+  {
+    id: "indexjump-manager-pro",
+    title: "IndexJump Manager Pro",
+    description: "Kelola banyak akun IndexJump untuk indexing ratusan hingga ribuan URL tanpa login ulang.",
+    icon: "Globe",
+    href: "#indexjump-manager",
+    badge: "Ekslusif",
+    category: "seo",
+    externalUrl: "https://indexjump.prajuritdigital.my.id/"
+  },
+  {
+    id: "indexing-google-api-pro",
+    title: "Indexing Google API Pro",
+    description: "Gunakan banyak JSON Keys untuk memperluas kuota indexing Google dalam satu tempat.",
+    icon: "Globe",
+    href: "#indexing-google-api-pro",
+    badge: "Ekslusif",
+    category: "seo",
+    externalUrl: "https://indexinggoogleapi.prajuritdigital.my.id/"
   }
 ];
