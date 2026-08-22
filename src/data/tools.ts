@@ -144,6 +144,15 @@ export const TOOLS_DATA: Tool[] = [
     href: "#umkm-virtual-team",
     category: "marketing",
     externalUrl: "https://umkm.prajuritdigital.my.id/"
+  },
+  {
+    id: "word-counter",
+    title: "Word Counter",
+    description: "Hitung kata, karakter, dan statistik tulisan sekaligus cek indikator pola tulisan AI.",
+    icon: "FileText",
+    href: "#word-counter",
+    category: "writing",
+    externalUrl: "https://wordcounter.prajuritdigital.my.id/"
   }
 ];
 

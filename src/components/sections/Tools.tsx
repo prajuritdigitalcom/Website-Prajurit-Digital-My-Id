@@ -28,7 +28,8 @@ import {
   Gamepad2,
   Layout,
   Users,
-  Network
+  Network,
+  FileText
 } from "lucide-react";
 
 export default function Tools() {
@@ -71,6 +72,8 @@ export default function Tools() {
         return <Users className="w-6 h-6" />;
       case "Network":
         return <Network className="w-6 h-6" />;
+      case "FileText":
+        return <FileText className="w-6 h-6" />;
       default:
         return <ImageIcon className="w-6 h-6" />;
     }
