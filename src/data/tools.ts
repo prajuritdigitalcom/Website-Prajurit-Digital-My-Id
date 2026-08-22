@@ -147,8 +147,8 @@ export const TOOLS_DATA: Tool[] = [
   },
   {
     id: "word-counter",
-    title: "Word Counter",
-    description: "Hitung kata, karakter, dan statistik tulisan sekaligus cek indikator pola tulisan AI.",
+    title: "Word Counter & Humanizer",
+    description: "Hitung statistik tulisan, cek pola AI, dan humanize teks dengan mudah dalam satu tempat.",
     icon: "FileText",
     href: "#word-counter",
     category: "writing",
